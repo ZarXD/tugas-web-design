@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Pembelian</title>
+</head>
+<body>
+    <h1>Form Data Pembelian</h1>
+    <form action="">
+        <label for="tanggal-pembelian">Tanggal Pembelian :</label>
+        <input type="date" name="tanggal-pembelian" id="tanggal-pembelian">
+        <br>
+        <br>
+
+        <label for="nama-supplier">Nama Supplier :</label>
+        <input type="text" name="nama-supplier" id="nama-supplier">
+        <br>
+        <br>
+
+        <label for="nama-produk">Nama Produk :</label>
+        <input type="text" name="nama-produk" id="nama-produk">
+        <br>
+        <br>
+        
+        <label for="jumlah">Jumlah :</label>
+        <input type="number" name="jumlah" id="jumlah" min="1" max="100">
+        <br>
+        <br>
+
+        <label for="harga-satuan">Harga Satuan :</label>
+        <input type="number" name="harga-satuan" id="harga-satuan" min="1">
+        <br>
+        <br>
+    
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Reset">
+        <br>
+        <br>
+        <input type="button" onclick="location.href='index.html'" value="Back">
+    </form>
+</body>
+</html>
